@@ -1,11 +1,16 @@
 "use client"
 import Image from "next/image";
 import { Link as ScrollLink } from "react-scroll";
+import { motion } from "framer-motion";
 
 export default function HeroSection() {
     return (
         <section className="h-screen flex flex-row items-center justify-between px-20">
-            <div>
+            <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+            >
                 <h1 className="text-7xl font-bold text-start mb-8 text-black max-w-2xl">
                     Empowering Kids Through <span className="bg-text-gradient bg-clip-text text-transparent">Technology.</span>
                 </h1>
@@ -32,14 +37,20 @@ export default function HeroSection() {
                         Learn More
                     </ScrollLink>
                 </div>
-            </div>
-            <Image 
-                src={"/hero-image.jpg"}
-                alt="Hero Image"
-                width={600}
-                height={400}
-                className="rounded-xl"
-            />
+            </motion.div>
+            <motion.div
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+            >
+                <Image 
+                    src={"/hero-image.jpg"}
+                    alt="Hero Image"
+                    width={600}
+                    height={400}
+                    className="rounded-xl"
+                />
+            </motion.div>
         </section>
     )
 }
