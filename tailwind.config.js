@@ -14,6 +14,7 @@ module.exports = {
       },
       backgroundImage: {
         'gradient-purple-blue': 'linear-gradient(to right, #7443ee, #4976f5)',
+        'text-gradient': 'linear-gradient(to right, #7443ee, #4976f5, #00d4ff)',
       },
     },
   },
