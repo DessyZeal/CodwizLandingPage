@@ -6,21 +6,21 @@ export default function Impacts() {
             </h2>
             <p className="text-gray-500 font-medium max-w-4xl text-center">Transforming lives through technology, one child at a time.</p>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 px-5 lg:px-20 py-10 text-center text-black font-bold text-2xl">
-                <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
-                    <h2 className="bg-text-gradient bg-clip-text text-transparent">500+</h2>
-                    <p className="text-gray-500">Kids empowered</p>
+                <div className="bg-white p-6 flex flex-col items-center justify-center rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                    <h2 className="bg-text-gradient bg-clip-text text-transparent text-4xl">500+</h2>
+                    <p className="text-gray-500 text-sm font-medium ">Kids empowered</p>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
-                    <h2 className="bg-text-gradient bg-clip-text text-transparent">50+</h2>
-                    <p className="text-gray-500">Community Outreaches</p>
+                <div className="bg-white p-6 flex flex-col items-center justify-center rounde-sm shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                    <h2 className="bg-text-gradient bg-clip-text text-transparent text-4xl">50+</h2>
+                    <p className="text-gray-500 text-sm font-medium">Community Outreaches</p>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
-                    <h2 className="bg-text-gradient bg-clip-text text-transparent">1000+</h2>
-                    <p className="text-gray-500">Tech skills learned</p>
+                <div className="bg-white p-6 flex flex-col items-center justify-center rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                    <h2 className="bg-text-gradient bg-clip-text text-transparent text-4xl">1000+</h2>
+                    <p className="text-gray-500 text-sm font-medium">Tech skills learned</p>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
-                    <h2 className="bg-text-gradient bg-clip-text text-transparent">25+</h2>
-                    <p className="text-gray-500">Schools partnered</p>
+                <div className="bg-white p-6 flex flex-col items-center justify-center rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                    <h2 className="bg-text-gradient bg-clip-text text-transparent text-4xl">25+</h2>
+                    <p className="text-gray-500 text-sm font-medium">Schools partnered</p>
                 </div>
             </div>
             <div className="max-w-4xl mx-auto text-black text-start bg-white">
