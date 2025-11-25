@@ -26,7 +26,7 @@ export default function Navbar() {
         </li>
         <li className="text-black font-semibold cursor-pointer hover:text-[#7443ee] transition duration-300">
           <ScrollLink
-            to="pricing"
+            to="about"
             smooth={true}
             duration={600}
             offset={-80}
@@ -36,7 +36,7 @@ export default function Navbar() {
         </li>
         <li className="text-black font-semibold cursor-pointer hover:text-[#7443ee] transition duration-300">
           <ScrollLink
-            to="pricing"
+            to="programs"
             smooth={true}
             duration={600}
             offset={-80}
@@ -46,7 +46,7 @@ export default function Navbar() {
         </li>
         <li>
             <ScrollLink
-                to="pricing"
+                to="join-now"
                 smooth={true}
                 duration={600}
                 offset={-80}

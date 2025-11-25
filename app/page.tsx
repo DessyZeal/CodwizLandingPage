@@ -4,6 +4,7 @@ import About from "@/components/About";
 import OurPrograms from "@/components/OurPrograms";
 import Impacts from "@/components/Impacts";
 import GetStarted from "@/components/GetStarted";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <OurPrograms />
       <Impacts />
       <GetStarted />
+      <Footer />
     </main>
   );
 }
