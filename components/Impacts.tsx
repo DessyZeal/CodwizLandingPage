@@ -24,9 +24,10 @@ export default function Impacts() {
                 </div>
             </div>
             <div className="max-w-4xl mx-auto text-black text-start bg-white p-10 rounded-lg shadow-md">
-                <p className="text-lg ">
+                <p className="text-xl leading-8 ">
                     Since our founding, we&apos;ve been on a mission to bring technology education to every child in our community. Through hands-on workshops, coding bootcamps, and robotics competitions, we&apos;ve witnessed incredible transformations.
-                    From shy beginners to confident young innovators, our students don&apos;t just learn to code—they learn to dream bigger, think creatively, and build solutions for tomorrow&apos;s challenges. Every outreach is a new opportunity to spark curiosity and ignite a passion for technology that will last a lifetime.
+                    From shy beginners to confident young innovators, our students don&apos;t just learn to code
+                    —they learn to dream bigger, think creatively, and build solutions for tomorrow&apos;s challenges. Every outreach is a new opportunity to spark curiosity and ignite a passion for technology that will last a lifetime.
                 </p>
             </div>
         </section>
