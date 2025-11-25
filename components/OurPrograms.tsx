@@ -3,7 +3,7 @@ import { Code, Gamepad, WebcamIcon, Lightbulb, RadarIcon, Paintbrush } from "luc
 
 export default function OurPrograms() {
     return (
-        <section id="programs" className="pb-20">
+        <section id="programs" className="pb-20 px-3">
             <div>
                 <h2 className="text-4xl md:text-5xl font-bold text-black text-center">
                     Our <span className="bg-text-gradient bg-clip-text text-transparent">Programs</span>
