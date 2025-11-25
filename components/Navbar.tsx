@@ -5,7 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full h-24 flex items-center justify-between px-5 md:px-20 border-b border-gray-300 bg-custom-lavender-80 text-black z-50">
+    <nav className="fixed top-0 left-0 w-full h-24 flex items-center justify-between px-5 md:px-5 lg:px20 border-b border-gray-300 bg-custom-lavender-80 text-black z-50">
         <Image
             src="/CodwizLogo.png"
             alt="Codwiz Logo"
