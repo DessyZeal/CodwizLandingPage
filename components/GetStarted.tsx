@@ -2,7 +2,7 @@ import { Mail } from "lucide-react"
 
 export default function GetStarted() {
     return (
-        <section className="max-w-4xl flex flex-col mx-3 md:mx-3 lg:mx-auto rounded-2xl items-center justify-center bg-gradient-purple-blue px-10 py-16 mb-16">
+        <section id="join-now" className="max-w-4xl flex flex-col mx-3 md:mx-3 lg:mx-auto rounded-2xl items-center justify-center bg-gradient-purple-blue px-10 py-16 mb-16">
             <h2 className="text-5xl md:text-6xl text-white text-center font-bold mb-4">Ready to Start The Journey?</h2>
             <p className="text-white font-normal p-4 mb-4 text-center text-lg">Join hundreds of kids already learning, creating, and innovating. Sign up today and get your first class free!</p>
             <form action="" className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 mb-4">

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
     return (
-        <section className="min-h-screen flex flex-col lg:flex-row items-center justify-between px-5  lg:px-20 py-10 pt-28 lg:py-0 gap-8 lg:gap-0">
+        <section id="hero-section" className="min-h-screen flex flex-col lg:flex-row items-center justify-between px-5  lg:px-20 py-10 pt-28 lg:py-0 gap-8 lg:gap-0">
             <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}

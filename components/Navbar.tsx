@@ -16,7 +16,7 @@ export default function Navbar() {
       <ul className="hidden md:flex space-x-8">
         <li className="text-black font-semibold cursor-pointer hover:text-[#7443ee] transition duration-300">
           <ScrollLink
-            to="howitworks"
+            to="hero-section"
             smooth={true}
             duration={600}
             offset={-80} // offset for navbar height
