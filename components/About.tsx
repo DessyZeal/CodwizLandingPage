@@ -8,7 +8,7 @@ export default function About() {
                 <h2 className="text-4xl md:text-5xl font-bold text-black text-center">
                     About   Our <span className="bg-text-gradient bg-clip-text text-transparent">Community</span>
                 </h2>
-                <p className="text-gray-500 font-medium max-w-4xl text-start">
+                <p className="text-gray-500 font-medium max-w-4xl text-center">
                     At Codwiz, we believe in the power of technology to transform lives. Our mission is to empower children with the skills and confidence they need to thrive in a digital world. Through our engaging programs, we teach coding, robotics, and digital creativity in a fun and supportive environment. Join us on this exciting journey and help shape the future, one child at a time.
                 </p>
             </div>

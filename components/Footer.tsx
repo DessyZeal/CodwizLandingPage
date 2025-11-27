@@ -27,7 +27,7 @@ export default function Footer() {
                                 smooth={true}
                                 duration={600}
                                 offset={-80}
-                                className="text-gray-600 text-sm font-normal hover:text-white cursor-pointer transition"
+                                className="text-gray-600 text-sm font-normal hover:text-[#7443ee] cursor-pointer transition"
                             >
                                 Home
                             </ScrollLink>
@@ -38,7 +38,7 @@ export default function Footer() {
                                 smooth={true}
                                 duration={600}
                                 offset={-80}
-                                className="text-gray-600 text-sm font-normal hover:text-white cursor-pointer transition"
+                                className="text-gray-600 text-sm font-normal hover:text-[#7443ee] cursor-pointer transition"
                             >
                                 About Us
                             </ScrollLink>
@@ -49,7 +49,7 @@ export default function Footer() {
                                 smooth={true}
                                 duration={600}
                                 offset={-80}
-                                className="text-gray-600 text-sm font-normal hover:text-white cursor-pointer transition"
+                                className="text-gray-600 text-sm font-normal hover:text-[#7443ee] cursor-pointer transition"
                             >
                                 Programs
                             </ScrollLink>
@@ -60,7 +60,7 @@ export default function Footer() {
                                 smooth={true}
                                 duration={600}
                                 offset={-80}
-                                className="text-gray-600 text-sm font-normal hover:text-white cursor-pointer transition"
+                                className="text-gray-600 text-sm font-normal hover:text-[#7443ee] cursor-pointer transition"
                             >
                                 Join
                             </ScrollLink>
@@ -76,7 +76,7 @@ export default function Footer() {
                                 smooth={true}
                                 duration={600}
                                 offset={-80}
-                                className="text-gray-600 text-sm font-normal hover:text-white cursor-pointer transition"
+                                className="text-gray-600 text-sm font-normal hover:text-[#7443ee] cursor-pointer transition"
                             >
                                 Coding Classes
                             </ScrollLink>
@@ -87,7 +87,7 @@ export default function Footer() {
                                 smooth={true}
                                 duration={600}
                                 offset={-80}
-                                className="text-gray-600 text-sm font-normal hover:text-white cursor-pointer transition"
+                                className="text-gray-600 text-sm font-normal hover:text-[#7443ee] cursor-pointer transition"
                             >
                                 Robotics
                             </ScrollLink>
@@ -98,7 +98,7 @@ export default function Footer() {
                                 smooth={true}
                                 duration={600}
                                 offset={-80}
-                                className="text-gray-600 text-sm font-normal hover:text-white cursor-pointer transition"
+                                className="text-gray-600 text-sm font-normal hover:text-[#7443ee] cursor-pointer transition"
                             >
                                 Digital Art
                             </ScrollLink>
@@ -109,7 +109,7 @@ export default function Footer() {
                                 smooth={true}
                                 duration={600}
                                 offset={-80}
-                                className="text-gray-600 text-sm font-normal hover:text-white cursor-pointer transition"
+                                className="text-gray-600 text-sm font-normal hover:text-[#7443ee] cursor-pointer transition"
                             >
                                 Game Development
                             </ScrollLink>
