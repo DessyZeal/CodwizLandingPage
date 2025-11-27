@@ -24,7 +24,8 @@ export function ImageCarousel() {
   )
 
   return (
-    <Carousel
+    <section className="mx-3">
+        <Carousel
       plugins={[plugin.current]}
       className="w-full max-w-5xl mx-auto mb-10"
       onMouseEnter={plugin.current.stop}
@@ -44,8 +45,9 @@ export function ImageCarousel() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
+      <CarouselPrevious className="hidden md:flex" />
+      <CarouselNext className="hidden md:flex" />
+        </Carousel>
+    </section>
   )
 }
