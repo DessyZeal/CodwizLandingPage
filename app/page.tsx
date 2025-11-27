@@ -5,6 +5,7 @@ import OurPrograms from "@/components/OurPrograms";
 import Impacts from "@/components/Impacts";
 import GetStarted from "@/components/GetStarted";
 import Footer from "@/components/Footer";
+import { ImageCarousel } from "@/components/ImageCarousel";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <OurPrograms />
       <Impacts />
+      <ImageCarousel />
       <GetStarted />
       <Footer />
     </main>
