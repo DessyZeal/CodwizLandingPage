@@ -121,7 +121,9 @@ export default function Footer() {
                     <ul className="space-y-2">
                         <li className="text-gray-600 flex flex-row item-center justify-start space-x-2 mb-4">
                             <Mail className=""/>
-                            <p className="text-sm">codwiz@info.com</p>
+                            <a href="mailto:codwiz@info.com" className="text-sm hover:underline">
+                                codwiz@info.com
+                            </a>
                         </li>
                         <li className="text-gray-600 flex flex-row item-center justify-start space-x-2 mb-4">
                             <Phone className=""/>
