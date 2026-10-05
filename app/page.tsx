@@ -5,6 +5,7 @@ import OurPrograms from "@/components/OurPrograms";
 import Impacts from "@/components/Impacts";
 import GetStarted from "@/components/GetStarted";
 import Footer from "@/components/Footer";
+import Outreaches from "@/components/Outreaches";
 import { ImageCarousel } from "@/components/ImageCarousel";
 
 export default function Home() {
@@ -13,8 +14,9 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <About />
-      <OurPrograms />
       <Impacts />
+      <Outreaches />
+      <OurPrograms />
       <ImageCarousel />
       <GetStarted />
       <Footer />
