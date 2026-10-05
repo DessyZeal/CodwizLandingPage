@@ -1,38 +1,61 @@
 import AboutCard from "./AboutCard";
-import { Users, Rocket, Heart, Trophy } from "lucide-react";
+import { Users, Code, HandHeart, Award, Sparkles } from "lucide-react";
 
 export default function About() {
     return (
-        <section id="about" className="pb-20">
-            <div className="flex flex-col items-center justify-center px-3 lg:px-20 py-10 pt-28 lg:py-0 gap-8">
-                <h2 className="text-4xl md:text-5xl font-bold text-black text-center">
-                    About   Our <span className="bg-text-gradient bg-clip-text text-transparent">Community</span>
-                </h2>
-                <p className="text-gray-500 font-medium max-w-4xl text-center">
-                    At Codwiz, we believe in the power of technology to transform lives. Our mission is to empower children with the skills and confidence they need to thrive in a digital world. Through our engaging programs, we teach coding, robotics, and digital creativity in a fun and supportive environment. Join us on this exciting journey and help shape the future, one child at a time.
-                </p>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-5 lg:px-20 py-10">
-                <AboutCard
-                    icon={Users}
-                    title="Community Focused"
-                    description="Building a supportive environment for kids to learn and grow together."
-                />
-                <AboutCard
-                    icon={Rocket}
-                    title="Innovative Learning"
-                    description="Cutting-edge curriculum that makes learning technology fun and engaging."
-                />
-                <AboutCard
-                    icon={Heart}
-                    title="Passionate Instructors"
-                    description="Dedicated educators who inspire and nurture young minds."
-                />
-                <AboutCard
-                    icon={Trophy}
-                    title="Proven Success"
-                    description="Empowering thousands of children to achieve their tech dreams."
-                />
+        <section id="about" className="px-4 lg:px-20 pt-20 pb-20">
+            <div className="rounded-[2rem] bg-neutral-100 border border-neutral-200/60 px-5 md:px-10 lg:px-12 py-12 lg:py-14">
+                {/* Header */}
+                <div className="flex flex-col items-center text-center gap-5 mb-12">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-100/70 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-indigo-700">
+                        <Sparkles size={12} />
+                        About our community &amp; mission
+                    </span>
+
+                    <h2 className="max-w-2xl text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-neutral-900">
+                        Sparking Curiosity,{" "}
+                        <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                            Igniting Dreams
+                        </span>{" "}
+                        in Every Classroom
+                    </h2>
+
+                    <p className="max-w-3xl text-sm md:text-base text-gray-500 leading-relaxed">
+                        At Codwiz, we believe every child, regardless of geography or economic status deserves hands-on access to the tools of tomorrow. From humble weekend workshops in Umuahia to regional school tours, our mission is to empower the next generation of African tech innovators, makers, and problem solvers through playful STEM education.
+                    </p>
+                </div>
+
+                {/* Cards */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
+                    <AboutCard
+                        icon={Users}
+                        title="Community Focused"
+                        description="Building a supportive, collaborative environment for kids to explore and build together."
+                        chipClassName="bg-indigo-100"
+                        iconClassName="text-indigo-600"
+                    />
+                    <AboutCard
+                        icon={Code}
+                        title="Innovative Hands-on Learning"
+                        description="Practical, cutting-edge curriculum spanning Scratch, Python, micro:bits, and robotics."
+                        chipClassName="bg-sky-100"
+                        iconClassName="text-sky-600"
+                    />
+                    <AboutCard
+                        icon={HandHeart}
+                        title="Passionate Instructors"
+                        description="Dedicated volunteer engineers and educators who inspire and guide young minds."
+                        chipClassName="bg-indigo-100"
+                        iconClassName="text-indigo-600"
+                    />
+                    <AboutCard
+                        icon={Award}
+                        title="Proven Lasting Impact"
+                        description="Over 500+ students empowered with ongoing school tech clubs and lifelong confidence."
+                        chipClassName="bg-blue-600"
+                        iconClassName="text-white"
+                    />
+                </div>
             </div>
         </section>
     );
