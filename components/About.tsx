@@ -8,7 +8,6 @@ export default function About() {
                 {/* Header */}
                 <div className="flex flex-col items-center text-center gap-5 mb-12">
                     <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-100/70 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-indigo-700">
-                        <Sparkles size={12} />
                         About our community &amp; mission
                     </span>
 
